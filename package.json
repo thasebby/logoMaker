@@ -1,0 +1,23 @@
+{
+  "name": "logomaker",
+  "version": "1.0.0",
+  "description": "SVG logo maker",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sebastian Saenz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "thasebby"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
