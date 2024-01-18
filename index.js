@@ -40,9 +40,8 @@ class SVG {
         //can't statically set the texts x and y element. You have to take into account where the shape is being rendered
         const x = shape.getXPosition();
         const y = shape.getYPosition();
-        console.log(`x = ${x} y = ${y}`);
         
-        this.text = `<text x="${x+5}" y="${y+5}" fill="${color}" font-size="12">${text}</text>`
+        this.text = `<text x="${x}" y="${y}" fill="${color}" font-size="50">${text}</text>`
     }
 
     //this function is creating the shape. It will input the information that has been hardcoded in the shapes.js file
